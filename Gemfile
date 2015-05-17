@@ -43,6 +43,7 @@ gem 'omniauth-twitter', '~> 1.0.1'
 gem 'kaminari', '~> 0.15.1'
 gem 'kaminari-bootstrap', '~> 3.0.1'
 gem 'ransack', '1.2.2'
+gem 'carrierwave', '~> 0.10.0'
 
 group :development, :test do
   gem 'pry-rails'  # rails console(もしくは、rails c)でirbの代わりにpryを使われる
