@@ -10,6 +10,7 @@
       <p class="list-group-item-text">
         <%= event.start_time.strftime('%Y/%m/%d %H:%M') %> - <%= event.end_time.strftime('%Y/%m/%d %H:%M') %>
       </p>
-     <% end %>
-   <% end %>
+    <% end %>
+  <% end %>
+  <%= paginate @events %>
 </div>
